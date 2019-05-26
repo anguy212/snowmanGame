@@ -1,0 +1,15 @@
+﻿<Properties StartupConfiguration="{7E397051-1E74-7FC5-3922-66AAE77EF54E}|">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/fireballMovement.cs">
+    <Files>
+      <File FileName="Assets/playerMovement.cs" Line="23" Column="30" />
+      <File FileName="Assets/fireballMovement.cs" Line="16" Column="19" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="Unity.Editor" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
