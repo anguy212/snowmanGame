@@ -15,14 +15,14 @@ public class playerMovement : MonoBehaviour
     void Update()
     {
         mousePos = Input.mousePosition.x;
-        if(mousePos < - 23f)
+        if(mousePos < - 23.4f)
         {
-            mousePos = -23f;
+            mousePos = -23.4f;
         }
-        else if(mousePos > 23f)
+        else if(mousePos > 23.4f)
         {
-            mousePos = 23f;
+            mousePos = 23.4f;
         }
-        transform.position = new Vector3(mousePos, -4.05f, -0.6572319f);
+        transform.position = new Vector3(mousePos, -35.25f, -0.6572319f);
     }
 }

@@ -62,6 +62,7 @@
   <ItemGroup>
     <Compile Include="Assets\fireballMovement.cs" />
     <Compile Include="Assets\playerMovement.cs" />
+    <Compile Include="Assets\snowflakeMovement.cs" />
     <Reference Include="Unity.TextMeshPro.Editor">
       <HintPath>/Users/alicenguyen/Documents/MindTapp/trainingMod/trainingModule/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>
