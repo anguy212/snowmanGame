@@ -15,7 +15,7 @@ public class snowflakeMovement : MonoBehaviour
     {
         if (transform.position.y <= -45f)
         {
-            transform.position = new Vector3(Random.Range(-23f, 23f), 45f, 0);
+            transform.position = new Vector3(Random.Range(-60f, 60f), 45f, 0);
         }
         transform.Translate(new Vector3(-1, -1, 0)*0.5f);
     }

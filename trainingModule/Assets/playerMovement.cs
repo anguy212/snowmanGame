@@ -29,13 +29,13 @@ public class playerMovement : MonoBehaviour
     void Update()
     {
         mousePos = Input.mousePosition.x;
-        if (mousePos < -23.4f)
+        if (mousePos < -60f)
         {
-            mousePos = -23.4f;
+            mousePos = -60f;
         }
-        else if (mousePos > 23.4f)
+        else if (mousePos > 60f)
         {
-            mousePos = 23.4f;
+            mousePos = 60f;
         }
         transform.position = new Vector3(mousePos, -35.25f, -0f); 
     }
@@ -43,12 +43,12 @@ public class playerMovement : MonoBehaviour
     {
         if (collision.gameObject.CompareTag("fire"))
         {
-            collision.transform.position = new Vector3(Random.Range(-23f, 23f), 45f, -0f);
+            collision.transform.position = new Vector3(Random.Range(-60f, 60f), 45f, -0f);
             hitFire();
         }
         else if (collision.gameObject.CompareTag("snow"))
         {
-            collision.transform.position = new Vector3(Random.Range(-23f, 23f), 45f, -0f);
+            collision.transform.position = new Vector3(Random.Range(-60f, 60f), 45f, -0f);
             if (paused == false) { count += 1; }
             setScoreText();
         }
